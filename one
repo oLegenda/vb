@@ -1,0 +1,16 @@
+Module Module1
+
+    Sub Main()
+        Dim A As Integer = Console.ReadLine()
+        Console.WriteLine(A)
+        For B As Integer = 1 To A Step 2
+            Console.Write("{0} ", B)
+        Next
+        Console.WriteLine()
+        If A > 10 Then
+            Console.Write("All OK!")
+        End If
+        Console.ReadKey()
+    End Sub
+
+End Module
